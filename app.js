@@ -20,12 +20,7 @@ if(process.env.NODE_ENV !="production"){
     // console.log(process.env.CLOUD_API_KEY);
 }
 
-// const Listing=require("./models/listing.js");
-// const  Review=require("./models/review.js");
-
-// const wrapAsync=require("./utils/wrapAsync.js");
-   const ExpressError=require("./utils/ExpressError.js");
-// const {listingSchema,reviewSchema}=require("./schemaValidation.js");
+const ExpressError=require("./utils/ExpressError.js");
 
 const ListingRouter=require("./routes/routeListing.js");
 const ReviewRouter=require("./routes/routeReview.js");
